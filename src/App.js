@@ -4,16 +4,22 @@ import HomePage from "./components/HomePage";
 import TeacherList from "./components/TeacherList";
 import FavoritePage from "./components/FavoritePage";
 import AuthForm from "./components/AuthForm";
+import Header from "./components/Header";
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/login" component={AuthForm} />
-        <Route path="/teachers" component={TeacherList} />
-        <Route path="/favorites" component={FavoritePage} />
-      </Switch>
+      <div>
+        <Header />
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <Switch>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/teachers" component={TeacherList} />
+            <Route path="/login" component={AuthForm} />
+            <Route path="/favorites" component={FavoritePage} />
+          </Switch>
+        </div>
+      </div>
     </Router>
   );
 }
