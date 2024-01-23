@@ -24,19 +24,33 @@ const TeacherCard = ({ teacher }) => {
   };
 
   return (
-    <div className="teacher-card">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg p-4">
       <img
+        className="w-full"
         src={teacher.avatar_url}
         alt={`${teacher.name} ${teacher.surname}`}
       />
-      <h3>
-        {teacher.name} {teacher.surname}
-      </h3>
-      <p>Languages: {teacher.languages.join(", ")}</p>
-      <p>Price per hour: ${teacher.price_per_hour}</p>
-      <button onClick={() => addToFavorites(teacher.id)}>
-        {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
-      </button>
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2">
+          {teacher.name} {teacher.surname}
+        </div>
+        <p className="text-gray-700 text-base">
+          Languages: {teacher.languages.join(", ")}
+        </p>
+        <p className="text-gray-700 text-base">
+          Price per hour: ${teacher.price_per_hour}
+        </p>
+      </div>
+      <div className="px-6 pt-4 pb-2">
+        <button
+          className={`bg-${isFavorite ? "red" : "blue"}-500 hover:bg-${
+            isFavorite ? "red" : "blue"
+          }-700 text-white font-bold py-2 px-4 rounded`}
+          onClick={() => addToFavorites(teacher.id)}
+        >
+          {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
+        </button>
+      </div>
     </div>
   );
 };
