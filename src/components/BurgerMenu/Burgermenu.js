@@ -1,12 +1,12 @@
 import { nanoid } from "@reduxjs/toolkit";
-import "./burgerMenu.css";
+import "./BurgerMenu.css";
 import { FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const BurgerMenu = ({ header, items, isBrgOpen, setIsBrgOpen }) => {
   return (
     <div
-      className={isBrgOpen ? "burgerMenuMeinBox active" : "burgerMenuMeinBox"}
+      className={isBrgOpen ? "burgerMenuMainBox active" : "burgerMenuMainBox"}
       onClick={() => setIsBrgOpen(false)}
     >
       <div className="burgerMenuContent" onClick={(e) => e.stopPropagation()}>

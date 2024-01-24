@@ -1,4 +1,4 @@
-.burgerMenuMeinBox {
+.burgerMenuMainBox {
   position: fixed;
   z-index: 200;
   width: 100%;
@@ -19,7 +19,7 @@
   }
 }
 
-.burgerMenuMeinBox.active {
+.burgerMenuMainBox.active {
   opacity: 1;
   pointer-events: all;
   transition: opacity 500ms cubic-bezier(0.39, 0.575, 0.565, 1);
