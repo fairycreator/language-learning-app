@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./components/HomePage";
-import TeacherList from "./components/TeacherList";
-import FavoritePage from "./components/FavoritePage";
-import AuthForm from "./components/AuthForm";
-import Header from "./components/Header";
+import HomePage from "./components/HomePage/Homepage";
+import TeacherList from "./components/TeacherList/TeacherList";
+import FavoritePage from "./components/FavoritePage/FavoritePage";
+import AuthForm from "./components/AuthForm/AuthForm";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
