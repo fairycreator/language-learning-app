@@ -4,8 +4,8 @@ import { HiMenu } from "react-icons/hi";
 import { useState } from "react";
 
 import Container from "../Container/ResponsiveContainer";
-import Logo from "../logo/logo";
-import Auth from "../auth/auth";
+import Logo from "../Logo/Logo";
+import Auth from "../AuthForm/AuthForm";
 import BurgerMenu from "../BurgerMenu/Burgermenu";
 import { nanoid } from "nanoid";
 
