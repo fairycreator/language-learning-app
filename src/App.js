@@ -1,26 +1,30 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./components/HomePage/Homepage";
-import TeacherList from "./components/TeacherList/TeacherList";
-import FavoritePage from "./components/FavoritePage/FavoritePage";
-import AuthForm from "./components/AuthForm/AuthForm";
-import Header from "./components/Header/Header";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import HomePage from "./pages/Home";
+import TeachersPage from "./pages/Teachers";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import FavoriteTeachersPage from "./pages/Favorites";
+import PublicRoute from "./components/PublicRoute/publicRoute";
+import PrivateRoute from "./components/PrivateRoute/privateRoute";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Switch>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/teachers" component={TeacherList} />
-            <Route path="/login" component={AuthForm} />
-            <Route path="/favorites" component={FavoritePage} />
-          </Switch>
-        </div>
-      </div>
-    </Router>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="" redire element={<PublicRoute />}>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/teachers" element={<TeachersPage />} />
+          </Route>
+
+          <Route path="" element={<PrivateRoute />}>
+            <Route path="/favorites" element={<FavoriteTeachersPage />} />
+          </Route>
+        </Route>
+      </Routes>
+      <ToastContainer autoClose={2500} />
+    </>
   );
 }
 
