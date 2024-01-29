@@ -1,4 +1,4 @@
-import "./homePage.css";
+import "./styles/home.css";
 import { useNavigate } from "react-router-dom";
 import Container from "../components/Container/ResponsiveContainer";
 import Button from "../components/Button/Button";

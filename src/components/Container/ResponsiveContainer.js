@@ -1,4 +1,4 @@
-import "./container.css";
+import "./ResponsiveContainer.css";
 
 const ResponsiveContainer = ({ children }) => {
   return <div className="container">{children}</div>;

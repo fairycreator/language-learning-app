@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { nanoid } from "@reduxjs/toolkit";
 import getUniqueValues from "../../helpers/getUniqueValues";
-import "./filter.css";
+import "./TeacherFilter.css";
 
 const Dropdown = ({ title, items, onSelect, selectedValue }) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
-import "./centeredFlexContainer.css";
+import "./CentredFlexContainer.css";
 
-const CenteredFlexContainer = ({ children, flexDirection = "column" }) => {
+const FlexContainer = ({ children, flexDirection = "column" }) => {
   return (
     <div className="centeredFlexContainer" style={{ flexDirection }}>
       {children}
@@ -8,4 +8,4 @@ const CenteredFlexContainer = ({ children, flexDirection = "column" }) => {
   );
 };
 
-export default CenteredFlexContainer;
+export default FlexContainer;

@@ -2,7 +2,7 @@ import "./styles/teachers.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { nanoid } from "@reduxjs/toolkit";
-import { getTeachers } from "../../redux/teachers/teachersOperations";
+import { getTeachers } from "../redux/teachers/teachersOperations";
 import TeacherCard from "../components/TeacherCard/TeacherCard";
 import Container from "../components/Container/ResponsiveContainer";
 import PropagateLoader from "react-spinners/PropagateLoader";

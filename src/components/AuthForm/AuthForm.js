@@ -1,12 +1,12 @@
-import "./auth.css";
+import "./AuthForm.css";
 import { FiLogIn, FiLogOut } from "react-icons/fi";
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { logOutThunk } from "../../redux/auth/authOperations";
-import Modal from "../modal/modal";
-import LogInForm from "../form/logInForm";
-import RegisterForm from "../form/registerForm";
-import ConteinerCenter from "../conteiner/ConteinerCenter";
+import Modal from "../Modals/Modal";
+import LogInForm from "../Forms/LoginForm";
+import RegisterForm from "../Forms/RegisterForm";
+import FlexContainer from "../Container/CentredFlexContainer";
 import ClipLoader from "react-spinners/ClipLoader";
 
 const AuthForm = () => {
@@ -21,9 +21,9 @@ const AuthForm = () => {
 
   if (isAuthLoading) {
     return (
-      <ConteinerCenter>
+      <FlexContainer>
         <ClipLoader color={"var(--accent-color)"} size={20} />
-      </ConteinerCenter>
+      </FlexContainer>
     );
   }
 
