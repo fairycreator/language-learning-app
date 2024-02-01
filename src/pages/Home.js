@@ -2,6 +2,7 @@ import "./styles/home.css";
 import { useNavigate } from "react-router-dom";
 import Container from "../components/Container/ResponsiveContainer";
 import Button from "../components/Button/Button";
+import image from "../assets/images/main-page.png";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -32,16 +33,16 @@ const HomePage = () => {
               className="heroImgFace"
               width="339px"
               height="339px"
-              src={process.env.PUBLIC_URL + "/face.png"}
+              src={image}
               alt="face"
             />
-            <img
+            {/* <img
               className="heroImgLeptop"
               width="359px"
               height="176px"
               src={process.env.PUBLIC_URL + "/leptop.png"}
               alt="leptop"
-            />
+            /> */}
           </div>
         </div>
         <div className="statisticListBox">
