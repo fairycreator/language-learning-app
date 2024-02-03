@@ -1,0 +1,60 @@
+@import "~normalize.css";
+
+body {
+  background-color: #f8f8f8;
+  padding-bottom: 16px;
+}
+
+:root {
+  --accent-color: #f4c550;
+  --latte-bg: #fbe9ba;
+  --main-black: #121417;
+  --grey-bg: #f8f8f8;
+  --white: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+  border: none;
+}
+
+img {
+  display: block;
+}
