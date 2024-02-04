@@ -28,7 +28,6 @@ const firebaseConfig = {
   storageBucket: "language-learning-app-179f6.appspot.com",
   messagingSenderId: "443115709349",
   appId: "1:443115709349:web:72111701c9084b9c0ebe4c",
-  measurementId: "G-KEVK9Q9FD9",
 };
 
 const app = initializeApp(firebaseConfig);
