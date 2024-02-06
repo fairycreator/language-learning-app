@@ -31,19 +31,24 @@ To set up LearnLingo locally, follow these steps:
 
 2. Navigate to the project directory:
 
-   ```cd learnlingo
+   ```bash
+   cd learnlingo
 
    ```
 
 3. Install dependencies:
 
-   ```npm install
+   ```bash
+   npm install
 
    ```
 
 4. Start the development server:
 
-   ```npm start
+   ``bash
+   npm start
+
+   ```
 
    ```
 
