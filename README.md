@@ -23,16 +23,29 @@ LearnLingo is a dynamic online platform designed to revolutionize the way indivi
 To set up LearnLingo locally, follow these steps:
 
 1. Clone the repository:
+
+   ```bash
    git clone https://github.com/yourusername/learnlingo.git
 
+   ```
+
 2. Navigate to the project directory:
-   cd learnlingo
+
+   ```cd learnlingo
+
+   ```
 
 3. Install dependencies:
-   npm install
+
+   ```npm install
+
+   ```
 
 4. Start the development server:
-   npm start
+
+   ```npm start
+
+   ```
 
 5. Open http://localhost:3000 in your browser to view the app.
 
