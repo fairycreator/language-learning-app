@@ -23,7 +23,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyDUwF8KXcuaSXKUO4SNkcib8JFeV9s6q78",
   authDomain: "language-learning-app-179f6.firebaseapp.com",
   databaseURL:
-    "https://language-learning-app-179f6-default-rtdb.europe-west1.firebasedatabase.app/0",
+    "https://language-learning-app-179f6-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "language-learning-app-179f6",
   storageBucket: "language-learning-app-179f6.appspot.com",
   messagingSenderId: "443115709349",
