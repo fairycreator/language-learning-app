@@ -45,7 +45,7 @@ To set up LearnLingo locally, follow these steps:
 
 4. Start the development server:
 
-   ``bash
+   ```bash
    npm start
 
    ```
