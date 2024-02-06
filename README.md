@@ -2,7 +2,12 @@
 
 LearnLingo is a dynamic online platform designed to revolutionize the way individuals learn languages. Connecting learners with experienced teachers, LearnLingo offers personalized language education through an interactive and user-friendly online environment. This project was born out of a passion for languages and technology, aiming to make language learning accessible and engaging for everyone, everywhere.
 
-**### Features**
+**## Screenshots**
+
+![Welcome Page](/src/assets/images/home-page.jpg)
+![Teachers Page](/src/assets/images/teachers-page.jpg)
+
+**## Features**
 
 - **Interactive Teacher Profiles**: Explore detailed profiles of professional language teachers, including their teaching languages, experience, student reviews, and personalized lesson plans.
 - **Flexible Scheduling**: Book lessons at your convenience with our easy-to-use scheduling system.
@@ -11,14 +16,14 @@ LearnLingo is a dynamic online platform designed to revolutionize the way indivi
 - **Secure User Authentication**: Register and log in securely to manage your profile, lesson bookings, and favorites.
 - **Responsive Design**: Enjoy a seamless learning experience on any device, thanks to our responsive web design.
 
-**### Technologies**
+**## Technologies**
 
 - Frontend: Developed with React, LearnLingo's SPA (Single Page Application) architecture ensures a smooth, dynamic user experience without page reloads.
 - Backend: Firebase Realtime Database is utilized for storing and managing user and teacher data, ensuring real-time updates and synchronization.
 - Authentication: Firebase Authentication provides a secure and hassle-free authentication system.
 - Routing: React Router is used for efficient navigation and rendering of different pages within the app.
 
-**### Getting Started**
+**## Getting Started**
 
 To set up LearnLingo locally, follow these steps:
 
@@ -53,11 +58,16 @@ To set up LearnLingo locally, follow these steps:
 
 5. Open http://localhost:3000 in your browser to view the app.
 
-**### Deployment**
+**## Deployment**
 
 LearnLingo is deployed on Netlify, enabling global access with high availability and performance.
 
-**### Contribution**
+## Layout
+
+The design layout used for HealthyHub is available for viewing on Figma:
+[Learn Lingo Layout](https://www.figma.com/file/dewf5jVviSTuWMMyU3d8Mc/Learn-Lingo?type=design&node-id=6-356&mode=design&t=CCdMpN1epvKY54Mp-0).
+
+**## Contribution**
 
 As a pet project, LearnLingo welcomes contributions, feedback, and suggestions for improvement. Feel free to fork the repository, create feature branches, or open issues.
 
@@ -65,6 +75,6 @@ As a pet project, LearnLingo welcomes contributions, feedback, and suggestions f
 
 This project would not have been possible without the support and inspiration from the online development and language learning communities.
 
-**### License**
+**## License**
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
