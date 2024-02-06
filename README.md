@@ -4,8 +4,9 @@ LearnLingo is a dynamic online platform designed to revolutionize the way indivi
 
 **## Screenshots**
 
-![Welcome Page](/src/assets/images/home-page.jpg)
-![Teachers Page](/src/assets/images/teachers-page.jpg)
+![Welcome Page](./src/assets/images/home-page.jpg)
+![Teachers Page](./src/assets/images/teachers-page.jpg)
+
 
 **## Features**
 
